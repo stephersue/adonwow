@@ -55,6 +55,37 @@ nav {
      text-shadow: 1px 1px 0px rgb(58,23,63);
    }
 
+.channels {
+  display: block;
+  border: solid #58595b;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  min-width: 350px;
+  width: 49.6%;
+}
+
+.tv-main {
+  background-image: url("../assets/images/grey_plasma-tv_icon-icons.com_59473.png")no-repeat center middle;
+  background-repeat: no-repeat;
+}
+
+.digi-main {
+  background-image: url("../assets/images/Digital.png") no-repeat center middle;
+  background-repeat: no-repeat;
+}
+
+.features {
+  display: block;
+  float: left;
+}
+
+.tvFeature {
+  width: 33%;
+  max-width: 350px;
+}
+
 h1.hero-title {
   background-color: #ffc40c;
   background-size: cover;
