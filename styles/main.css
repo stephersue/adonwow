@@ -11,7 +11,7 @@ body {
      min-height: 100%;
  }
 nav {
-   background-color: #0072AB;
+   background-color: #0065E3;
    position: fixed; /* Set the navbar to fixed position */
    top: 0; /* Position the navbar at the top of the page */
    width:100%;
@@ -36,7 +36,7 @@ nav {
 .hero-content {
      display: block;
      min-height: 200px;
-     background-color: #ffc40c;
+     background-color: #0065E3;
      background-size: cover;
      text-align: center;
      color: #ffffff;
@@ -47,12 +47,20 @@ nav {
      display: block;
      width: 100%;
      text-align: center;
-     color: #ffffff;
+     color: #ffc40c;
      align-items: center; /* Vertical center alignment */
      justify-content: center; /* Horizontal center alignment */
      font-size: 4rem;
      line-height: 8rem;
      text-shadow: 1px 1px 0px rgb(58,23,63);
+   }
+
+h1.hero-title {
+
+     color: #ffc40c;
+     background-size: cover;
+     border: 0;
+     margin: 0 !important;
    }
 
 .channels {
@@ -64,7 +72,7 @@ nav {
   float: left;
   margin:0;
   min-width: 350px;
-  width: 49.6%;
+  width: 50%;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
@@ -76,28 +84,61 @@ nav {
   line-height: 3rem;
   color: #f26529;
   padding: 0;
+  text-shadow: 1px 1px 0px rgb(58,23,63);
 }
 
 .tv-main {
+  background-color: #ffffff;
   background-image: url("../assets/images/grey_plasma-tv_icon-icons.jpg");
 }
 
 .digi-main {
+  background-color: #ffffff;
   background-image: url("../assets/images/Digital.jpg");
 }
 
-.features {
-  display: block;
-}
 
 .tvFeature {
-  width: 33%;
-  max-width: 350px;
+  background-color: #58595b;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+}
+.digiFeature {
+  background-color: #58595b;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
 }
 
-h1.hero-title {
-  background-color: #ffc40c;
-  background-size: cover;
-  border: 0;
-  margin: 0 !important;
+.feature-wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+.feature {
+  width: 33%;
+  min-width: 150px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.home-cta {
+  width: 30%;
+  min-width: 150px;
+  background-color: #0065E3;
+  text-align: center;
+  margin: 5% auto 0 auto;
+}
+
+.home-cta a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cta-wrapper {
+  width: 100%;
+  text-align: center;
 }
