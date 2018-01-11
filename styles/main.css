@@ -10,6 +10,13 @@ body {
   	 margin: 0 !important;
      min-height: 100%;
  }
+
+ *, *::before, *::after {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+ 
 nav {
    background-color: #0065E3;
    position: fixed; /* Set the navbar to fixed position */
@@ -141,4 +148,17 @@ h1.hero-title {
 .cta-wrapper {
   width: 100%;
   text-align: center;
+}
+
+.media-kit {
+  text-align: center;
+  padding: 10px;
+}
+
+.media-kit h2{
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #f26529;
+  padding: 0;
+  text-shadow: 1px 1px 0px rgb(58,23,63);
 }
