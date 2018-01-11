@@ -57,28 +57,37 @@ nav {
 
 .channels {
   display: block;
-  border: solid #58595b;
+  outline: 2px solid #58595b;
   text-align: center;
   align-items: center;
   justify-content: center;
   float: left;
+  margin:0;
   min-width: 350px;
   width: 49.6%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  min-height: 110px;
+}
+
+.channels h2{
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #f26529;
+  padding: 0;
 }
 
 .tv-main {
-  background-image: url("../assets/images/grey_plasma-tv_icon-icons.com_59473.png")no-repeat center middle;
-  background-repeat: no-repeat;
+  background-image: url("../assets/images/grey_plasma-tv_icon-icons.jpg");
 }
 
 .digi-main {
-  background-image: url("../assets/images/Digital.png") no-repeat center middle;
-  background-repeat: no-repeat;
+  background-image: url("../assets/images/Digital.jpg");
 }
 
 .features {
   display: block;
-  float: left;
 }
 
 .tvFeature {
