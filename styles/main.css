@@ -115,49 +115,38 @@ h1.hero-title {
 .channels {
   display: block;
   outline: 2px solid #58595b;
+  background-color: #ffffff;
   text-align: center;
   align-items: center;
   justify-content: center;
   float: left;
-  margin:0;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 50%;
   min-height: 110px;
 }
 
 .channels h2{
   font-size: 2rem;
   line-height: 3rem;
-  color: #f26529;
+  color: #58595b;
   padding: 0;
-  text-shadow: 1px 1px 0px rgb(58,23,63);
 }
 
-.tv-main {
-  background-color: #ffffff;
-  background-image: url("../assets/images/grey_plasma-tv_icon-icons.jpg");
-}
-
-.digi-main {
-  background-color: #ffffff;
-  background-image: url("../assets/images/Digital.jpg");
-}
 
 
 .tvFeature {
-  background-color: #58595b;
+  background-color: #1272a5;
   text-align: center;
   align-items: center;
   padding: 10px;
+  margin-top: 4rem;
   display: block;
 }
 .digiFeature {
-  background-color: #58595b;
+  background-color: #1272a5;
   text-align: center;
   align-items: center;
   padding: 10px;
+  margin-top: 4rem;
   display: none;
 }
 
@@ -169,19 +158,19 @@ h1.hero-title {
 .feature {
   width: 100%;
   display: inline-block;
-  padding-top: 10px;
+  padding-top: 4rem;
 }
 
 .home-cta {
   width: 55%;
   min-width: 150px;
   /* border: #ffffff solid 2px; */
-  background-color: f26529;
+  background-color: #f26529;
   border-radius: 10px;
   font-size: 1.5rem;
   font-weight: bold;
   padding: .5rem;
-  margin: .5rem;
+  margin: 4rem;
   color: #ffffff;
   text-decoration: none;
   line-height: 100%;
@@ -205,7 +194,7 @@ h1.hero-title {
 .why-wow {
      display: block;
      min-height: 200px;
-     background-color: #ffc40c;
+     background-color: #58595b;
      background-size: cover;
      text-align: center;
      color: #ffffff;
@@ -221,7 +210,6 @@ h1.hero-title {
      justify-content: center; /* Horizontal center alignment */
      font-size: 2.5rem;
      line-height: 2rem;
-     text-shadow: 1px 1px 0px rgb(58,23,63);
    }
 
 h2.why-title {
@@ -242,7 +230,15 @@ h2.why-title {
   line-height: 3rem;
   color: #f26529;
   padding: 0;
-  text-shadow: 1px 1px 0px rgb(58,23,63);
+}
+
+.footer{
+  background-color: #58595b;
+  width: 100%;
+  color: #ffffff;
+  text-decoration: none;
+  display:flex;
+  justify-content: space-between;
 }
 
 /* Medium and large screens (640px) */
