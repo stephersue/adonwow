@@ -134,22 +134,18 @@ h1.hero-title {
   padding: 0;
 }
 
-
-
-.tvFeature {
+.mainfeature {
   background-color: #1272a5;
   text-align: center;
   align-items: center;
   padding: 10px;
   margin-top: 4rem;
+}
+
+.tv {
   display: block;
 }
-.digiFeature {
-  background-color: #1272a5;
-  text-align: center;
-  align-items: center;
-  padding: 10px;
-  margin-top: 4rem;
+.digi {
   display: none;
 }
 
@@ -277,6 +273,20 @@ h2.why-title {
 
 .right a{
   padding: 0 10px;
+}
+
+.review {
+  color: #ffffff;
+  opacity: 0;
+     -webkit-transform: scaleX(0.9) translateY(3rem);
+     -moz-transform: scaleX(0.9) translateY(3rem);
+     transform: scaleX(0.9) translateY(3rem);
+     -webkit-transition: all 0.25s ease-in-out;
+     -moz-transition: all 0.25s ease-in-out;
+     transition: all 0.25s ease-in-out;
+     -webkit-transition-delay: 0.2s;
+     -moz-transition-delay: 0.2s;
+     transition-delay: 0.2s;
 }
 
 /* Medium and large screens (640px) */
