@@ -26,5 +26,5 @@ var animateReviews = function() {
                  revealFirstReview();
                  revealSecondReview();
                  // revealThirdReview();
-
+                 alert("hello");
              };
