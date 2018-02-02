@@ -298,7 +298,38 @@ h2.why-title {
   flex-direction: row;
   align-items: center !important;
   vertical-align: middle;
-  justify-content: center;  
+  justify-content: center;
+}
+
+.map{
+  padding: 150px;
+  min-height: 400px;
+  background-image: url(../assets/images/Map_Full.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color:#ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grey{
+  background-color: #58595b;
+  width: 100%;
+  color: #ffffff;
+  text-decoration: none !important;
+  display: flex; /*flex*/
+  flex-direction: row;
+  align-items: center !important;
+  vertical-align: middle;
+  justify-content: center;
+  padding:inherit;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
 }
 
 
