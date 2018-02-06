@@ -1,3 +1,4 @@
+
 var animateReviews = function() {
 
       var reviews = document.getElementsByClassName('review');

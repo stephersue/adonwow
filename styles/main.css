@@ -37,9 +37,14 @@ nav {
    justify-content: flex-start;
  }
 
+.active, .btn:hover {
+  background:#58595b;
+  color:#ffffff;
+}
+
 .navBar .logo {
      position: relative;
-     padding-left: 7%;
+     padding: 10px 0 10px 50px;
  }
 
  .navBarRight a {
@@ -47,8 +52,8 @@ nav {
    color: #58595b;
    font-size: 1.5rem;
    font-weight: bold;
-   line-height:90%;
    justify-content: flex-end;
+   align-items: center;
    margin: 0 1rem;
  }
 
