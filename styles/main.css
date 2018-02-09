@@ -37,11 +37,6 @@ nav {
    justify-content: flex-start;
  }
 
-.active, .btn:hover {
-  background:#58595b;
-  color:#ffffff;
-}
-
 .navBar .logo {
      position: relative;
      padding: 10px 0 10px 50px;
@@ -55,6 +50,18 @@ nav {
    justify-content: flex-end;
    align-items: center;
    margin: 0 1rem;
+ }
+
+ .btn {
+   height: 100%;
+   align-items: center !important;
+   margin:auto;
+   padding: 15px;
+ }
+
+ .active, .btn:hover {
+   background:#58595b;
+   color:#ffffff !important;
  }
 
  .navBarRight {
@@ -201,6 +208,29 @@ h1.hero-title {
   font-weight: bold;
 }
 
+.tv-cta{
+  background-color: #0d8fbf;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: .5rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 100%;
+  text-align: center;
+  display: inline-flex;
+  justify-content: left;
+}
+
+.tv-cta a {
+  color: #ffffff !important;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .cta-wrapper {
   width: 100%;
   text-align: center;
@@ -335,7 +365,28 @@ h2.why-title {
 .center{
   display: flex;
   justify-content: center;
+  padding: 15px;
+  border-bottom: 1px solid #58595b;
 }
+
+.states{
+  max-width: 250px;
+  justify-content: center;
+}
+
+.imgLeft{
+  visibility: hidden;
+  width: 0%;
+}
+
+.adInfo, .adinfo a{
+  color: #58595b;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
+
 
 
 /* Medium and large screens (640px) */
@@ -352,5 +403,15 @@ h2.why-title {
   }
   .home-cta {
     width: 30%;
+  }
+  .imgLeft{
+    visibility: visible;
+    width: 45%;
+    text-align: center;
+    padding: 10px;
+  }
+  .adInfo{
+    width: 55%;
+    text-align: left;
   }
 }
