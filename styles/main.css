@@ -163,6 +163,13 @@ h1.hero-title {
 .mainfeature div{
   padding: inherit;
   color: #ffffff;
+  display: block;
+  width: 100%;
+  text-align: center; /*flex*/
+  align-items: center !important;
+  vertical-align: middle;
+  justify-content: center;
+  font-size: 1.5rem;
 }
 
 .tv {
@@ -247,11 +254,6 @@ h1.hero-title {
      padding: 5% 10% 5% 10%;
  }
 
- .why-wow img{
-   margin: 5px auto;
-   max-width: 150px;
-   margin: 2rem;
- }
  .why-wow .why-title {
      display: block;
      width: 100%;
@@ -329,11 +331,13 @@ h2.why-title {
 
 .ad-sizes{
   color: #58595b;
-  display: flex; /*flex*/
-  flex-direction: row;
+  display: block;
+  width: 100%;
+  text-align: center; /*flex*/
   align-items: center !important;
   vertical-align: middle;
   justify-content: center;
+  font-size: 1.5rem;
 }
 
 .map{
@@ -385,6 +389,24 @@ h2.why-title {
   text-align: center;
 }
 
+.product {
+    margin: 10px;
+}
+
+.product p{
+  display:none;
+}
+
+.product:hover p{
+  display:block;
+}
+
+.product:hover h2{
+  display:none;
+}
+.targeting{
+  width:100%;
+}
 
 
 
@@ -413,5 +435,11 @@ h2.why-title {
   .adInfo{
     width: 55%;
     text-align: left;
+  }
+  .targeting{
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width:30%;
   }
 }
