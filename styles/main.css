@@ -391,6 +391,7 @@ h2.why-title {
 
 .product {
     margin: 10px;
+    border: 2px solid white;
 }
 
 .product p{
@@ -406,6 +407,7 @@ h2.why-title {
 }
 .targeting{
   width:100%;
+  border: none;
 }
 
 
