@@ -33,7 +33,7 @@ nav {
  }
 
  nav img{
-   height:100%;
+   max-width:300px;
    justify-content: flex-start;
  }
 
@@ -45,7 +45,7 @@ nav {
  .navBarRight a {
    text-decoration: none;
    color: #58595b;
-   font-size: 1.5rem;
+   font-size: 1.1rem;
    font-weight: bold;
    justify-content: flex-end;
    align-items: center;
@@ -130,7 +130,7 @@ h1.hero-title {
 .channels {
   display: block;
   outline: 2px solid #58595b;
-  background-color: #ffffff;
+  background-color: #58595b;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -139,11 +139,24 @@ h1.hero-title {
   min-height: 110px;
 }
 
+.channels a{
+  text-decoration: none !important;
+}
+
 .channels h2{
   font-size: 2rem;
   line-height: 3rem;
-  color: #58595b;
+  color: #ffffff;
   padding: 0;
+}
+
+.channels:hover{
+  color:#ffffff;
+  background-color:#0d8fbf;
+}
+
+.channels:hover h2{
+  color: #ffffff;
 }
 
 .mainfeature {
@@ -218,11 +231,11 @@ h1.hero-title {
 .tv-cta{
   background-color: #0d8fbf;
   border-radius: 5px;
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
   padding: .5rem;
   margin-right: 2rem;
-  margin-top: 1rem;
+  margin-top: .5rem;
   color: #ffffff;
   text-decoration: none;
   line-height: 100%;
@@ -234,7 +247,7 @@ h1.hero-title {
 .tv-cta a {
   color: #ffffff !important;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -333,7 +346,7 @@ h2.why-title {
   color: #58595b;
   display: block;
   width: 100%;
-  text-align: center; /*flex*/
+  text-align: center;
   align-items: center !important;
   vertical-align: middle;
   justify-content: center;
@@ -374,7 +387,7 @@ h2.why-title {
 }
 
 .states{
-  max-width: 250px;
+  max-width: 200px;
   justify-content: center;
 }
 
@@ -385,7 +398,7 @@ h2.why-title {
 
 .adInfo, .adinfo a{
   color: #58595b;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -398,6 +411,10 @@ h2.why-title {
   display:none;
 }
 
+.product:hover {
+  background-color: #1272a5;
+}
+
 .product:hover p{
   display:block;
 }
@@ -407,10 +424,30 @@ h2.why-title {
 }
 .targeting{
   width:100%;
+  font-size: 1.2rem;
   border: none;
+  text-align: left;
+  min-height: 200px;
 }
 
+.targeting h2{
+  text-align: center;
+}
 
+.targeting p{
+  display:none;
+}
+
+.targeting:hover h2{
+  text-align: left;
+}
+.targeting:hover p{
+  display:block;
+}
+
+.title{
+  width:100%;
+}
 
 
 /* Medium and large screens (640px) */
@@ -438,10 +475,12 @@ h2.why-title {
     width: 55%;
     text-align: left;
   }
-  .targeting{
+  .ad-sizes {
     display:inline-flex;
     flex-direction: row;
     justify-content: center;
+  }
+  .targeting{
     width:30%;
   }
 }
