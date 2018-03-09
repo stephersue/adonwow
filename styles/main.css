@@ -58,12 +58,9 @@ nav {
    margin:auto;
    padding: 15px;
  }
- .border-box {
-   height: 50%;
- }
 
  .active, .btn:hover {
-   border-bottom: 3px solid #58595b;
+   text-decoration: underline solid #58595b !important;
  }
 
  .navBarRight {
