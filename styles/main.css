@@ -44,7 +44,7 @@ nav {
 
  .navBarRight a {
    text-decoration: none;
-   color: #58595b;
+   color: #323334;
    font-size: 1.1rem;
    font-weight: bold;
    justify-content: flex-end;
@@ -162,14 +162,11 @@ h1.hero-title {
   background-color: #1272a5;
   text-align: center;
   align-items: center;
-  padding: 10px;
-  margin-top: 4rem;
-  display:flex;
+  margin-top: 3rem;
 }
 
 .mainfeature img{
   max-height: 250px;
-  padding: 0 15%;
 }
 
 .mainfeature div{
@@ -400,6 +397,24 @@ h2.why-title {
   text-align: center;
 }
 
+.digi-hero{
+  display: block;
+  min-height: 200px;
+  background-image: url(../assets/images/Products_Bkgrd.jpg);
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  /* background-color: #58595b;
+  background-size: cover; */
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 5% 10% 5% 10%;
+}
+
 .product {
     margin: 10px;
     border: 2px solid white;
@@ -443,7 +458,7 @@ h2.why-title {
 
 
 /* Medium and large screens (640px) */
-@media (min-width: 640px) {
+@media (min-width: 840px) {
   .hero-content .hero-title {
     font-size: 4rem;
     line-height: 8rem;
@@ -476,5 +491,14 @@ h2.why-title {
     align-self: flex-start;
     width:30%;
     max-width: 350px;
+  }
+  .digi-hero{
+    background-image: url(../assets/images/Products_Bkgrd.jpg);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
   }
 }
